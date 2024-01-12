@@ -56,8 +56,11 @@ select {
 
 button {
     padding: 10px;
-    width: 100px;
+    width: 200px;
     border-radius: 10px;
+    background-color: #FF90BC;
+    font-size: 18px;
+    
 }
 footer {
     padding: 30px;
