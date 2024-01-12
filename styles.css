@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Salsa', cursive;
+    
+}
+
+body {
+    background-color: #FFC0D9;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    padding: 30px;
+    background-color: #FF90BC;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+}
+
+.company-tab, 
+.transaction-tab {
+    padding: 10px;
+}
+
+.tally {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.live-tab {
+    display: flex;
+    justify-content: space-around;
+    padding: 1px 120px 120px 120px;
+    flex: 1;
+}
+
+select {
+    width: 180px;
+    font-size: 18px;
+}
+
+button {
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+}
+footer {
+    padding: 30px;
+    text-align: center;
+    background-color: #8ACDD7;
+}
+
+.max {
+    text-align: center;
+}
+
+.max h3 {
+    padding-top: 20px;
+}
+
+.tally img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
